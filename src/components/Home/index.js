@@ -23,7 +23,17 @@ const Home = () => {
           <br /> especially in Front End Developer
         </p>
         <Link>
-          <button className="btn">
+          <button
+            className="btn"
+            offset={-150}
+            onClick={() => {
+              document.getElementById("contactMe").scrollIntoView({
+                block: "end",
+                inline: "center",
+                behavior: "smooth",
+              });
+            }}
+          >
             <FontAwesomeIcon icon={faBriefcase} /> Hire Me
           </button>
         </Link>

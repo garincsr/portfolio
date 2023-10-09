@@ -76,11 +76,6 @@ const Navbar = () => {
             inline: "center",
             behavior: "smooth",
           });
-
-          // window.scrollTo({
-          //   top: offsetPosition,
-          //   behavior: "smooth",
-          // });
         }}
       >
         <FontAwesomeIcon icon={faAddressBook} /> Contact Me
