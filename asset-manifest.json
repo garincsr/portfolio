@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.662d6267.css",
-    "main.js": "/portfolio/static/js/main.78bb1f37.js",
+    "main.css": "/portfolio/static/css/main.d9cba7e3.css",
+    "main.js": "/portfolio/static/js/main.e2b6434d.js",
     "static/media/carRentWebsite.mp4": "/portfolio/static/media/carRentWebsite.2c52e2bcc1af08db7a8f.mp4",
     "static/media/landing-page.png": "/portfolio/static/media/landing-page.678ac359772dee5875df.png",
     "static/media/sass.png": "/portfolio/static/media/sass.1c9a01e0c88e58a0b3ac.png",
@@ -31,11 +31,11 @@
     "static/media/logo-react.svg": "/portfolio/static/media/logo-react.e68b35f4774979ae220b1d5d7b345b00.svg",
     "static/media/dot-svg.svg": "/portfolio/static/media/dot-svg.377e881c1e68cef159d8e615a13f2edf.svg",
     "index.html": "/portfolio/index.html",
-    "main.662d6267.css.map": "/portfolio/static/css/main.662d6267.css.map",
-    "main.78bb1f37.js.map": "/portfolio/static/js/main.78bb1f37.js.map"
+    "main.d9cba7e3.css.map": "/portfolio/static/css/main.d9cba7e3.css.map",
+    "main.e2b6434d.js.map": "/portfolio/static/js/main.e2b6434d.js.map"
   },
   "entrypoints": [
-    "static/css/main.662d6267.css",
-    "static/js/main.78bb1f37.js"
+    "static/css/main.d9cba7e3.css",
+    "static/js/main.e2b6434d.js"
   ]
 }
