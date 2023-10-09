@@ -22,7 +22,7 @@
     .aboutDesc {
         font-family: 'Segoe UI';
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 1.2rem;
         max-width: 50rem;
         padding: 0 2rem;
     }
@@ -57,8 +57,14 @@
 
                 p {
                     font-family: 'Segoe UI';
-                    font-size: 0.75rem;
-                    font-weight: 400;
+                    font-size: 1rem;
+                    font-weight: 300;
+
+                    a.clickCertif {
+                        text-decoration: none;
+                        color: $primary-color;
+                    }
+
                 }
 
             }

@@ -22,17 +22,19 @@
     .skillDesc {
         font-family: 'Segoe UI';
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 1.2rem;
         max-width: 50rem;
         padding: 0 2rem;
     }
     
     .skillImg {
+        width: fit-content;
         margin: 1rem 0;
         display: flex;
         flex-wrap: wrap;
-        padding-left: 10%;
-        pointer-events: none;
+        align-content: center;
+        text-align: center;
+        // justify-content: center;
     }
     
     .Img {
@@ -44,12 +46,13 @@
     }
     
     #skills {
-        padding: 2rem;
+        padding: 0 1rem;
+        margin-bottom: 10%;
     }
     
     #contactMe {
-        height: calc(100vh - 1rem);
-        padding: 2rem;
+        margin: 0;
+        padding: 0 2rem;
     }
     
     .contactTitle {
@@ -62,7 +65,7 @@
     .contactDesc {
         font-family: 'Segoe UI';
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 1.2rem;
         width: 65rem;
         max-width: 50rem;
         padding: 0 2rem;
@@ -160,10 +163,18 @@
 
 }
 
+@media screen and (max-width: 820px) {
+
+    .skillImg {
+        margin-left: 10% !important;
+    }
+  
+}
+
 @media screen and (max-width: 768px) {
 
     .skillImg {
-        padding-left: 10% !important;
+        margin-left: 5% !important;
     }
     
     .Img {
@@ -175,6 +186,10 @@
 
 
 @media screen and (max-width: 480px) {
+
+    #contactPage {
+        min-height: calc(100vh - 3rem) !important;
+    }
 
     .skillTitle {
         font-size: 12vw !important;
@@ -197,7 +212,7 @@
     }
 
     .skillImg {
-        padding-left: 15% !important;
+        margin-left: 5% !important;
     }
     
     .Img {

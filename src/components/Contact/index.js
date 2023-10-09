@@ -47,10 +47,9 @@ const Contact = () => {
       <div id="skills">
         <h1 className="skillTitle">My Skills</h1>
         <span className="skillDesc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, a.
-          Totam, eius aut! Quas in, perferendis totam, incidunt nobis amet
-          reprehenderit quidem accusantium fugit modi maxime doloremque quos
-          pariatur voluptatum.
+          I have several frameworks that I commonly use to build websites. The
+          frameworks I am proficient in are predominantly used for developing
+          the frontend aspects of a website.
         </span>
         <div className="skillImg">
           <img src={html5} alt="" className="Img" />
@@ -68,10 +67,9 @@ const Contact = () => {
       <div id="contactMe">
         <h1 className="contactTitle">Contact Me</h1>
         <span className="contactDesc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, a.
-          Totam, eius aut! Quas in, perferendis totam, incidunt nobis amet
-          reprehenderit quidem accusantium fugit modi maxime doloremque quos
-          pariatur voluptatum.
+          You can send me an email if you're interested in recruiting me for
+          your company. Thank you for visiting my portfolio website. Have a
+          great day :)
         </span>
 
         <form className="contactForm" ref={form} onSubmit={sendEmail}>

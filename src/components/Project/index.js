@@ -12,10 +12,7 @@ const Porto = () => {
     <section id="project">
       <h2 className="proTitle">My Projects</h2>
       <span className="proDesc">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, a.
-        Totam, eius aut! Quas in, perferendis totam, incidunt nobis amet
-        reprehenderit quidem accusantium fugit modi maxime doloremque quos
-        pariatur voluptatum.
+        On this page, I showcase several website designs I have created.
       </span>
       <div className="proImg">
         <img src={Project1} alt="" className="screenShot" />

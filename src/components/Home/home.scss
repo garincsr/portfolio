@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 #home {
-  height: calc(100vh - 5rem);
+  height: calc(100vh - 4rem);
   width: 100vw;
   max-width: 80rem;
   margin: 0 auto;
@@ -29,8 +29,8 @@
   margin: 0;
   font-family: La Belle Aurore;
   margin-left: -1.5rem;
-  animation: fadeIn 1.5s linear both;
-  animation-delay: 1.4s;
+  animation: fadeIn 1s linear both;
+  animation-delay: 1.2s;
 }
 
 .inside-tags {
@@ -40,8 +40,8 @@
   margin: 1rem 0;
   font-family: La Belle Aurore;
   margin-left: -0.5rem;
-  animation: fadeIn 1.5s linear both;
-  animation-delay: 1.4s;
+  animation: fadeIn 1s linear both;
+  animation-delay: 1.2s;
 }
 
 .hello {
