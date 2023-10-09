@@ -1,0 +1,13 @@
+@import "../../App.scss";
+
+footer.footer {
+    width: 100vw;
+    height: 5rem;
+    background: $secondary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: small;
+    
+} 

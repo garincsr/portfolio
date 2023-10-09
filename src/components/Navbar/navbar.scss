@@ -1,0 +1,111 @@
+@import "../../App.scss";
+
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    // max-width: 80rem;
+    margin: 0;
+    padding: 3rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: #022c43;
+    font-size: large;
+
+    button {
+        font-weight: 600;
+        font-size: 0.8rem;
+        cursor: pointer;
+        background: $soft-color;
+        color: black;
+        font-weight: 600;
+        padding: 0 1.5rem;
+        line-height: 3rem;
+        border: 2px solid #000;
+        border-radius: 3rem;
+    }
+
+    button:hover {
+        background: white;
+    }
+
+}
+
+.logo {
+    object-fit: cover;
+    height: auto;
+    width: 3.5rem;
+}
+
+.brussels {
+    width: 1.5rem;
+}
+
+.navbarMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    color: $soft-color;
+}
+
+.navbarMenuListItem:hover {
+    color: $primary-color;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid $primary-color;
+}
+
+// MOBILE LAYOUT
+.active {
+    color: $primary-color;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid $primary-color;
+}
+
+.hamberger {
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+
+.mobileMenu {
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem ;
+    height: fit-content;
+    min-width: 15rem;
+    background: #043a57;
+    border-radius: 1rem;
+}
+
+.mobileListItem {
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.23rem;
+    background: $secondary-color;
+}
+
+@media screen and (max-width: 720px)  {
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .hamberger {
+        display: flex;
+    }
+
+    .navbarMenu {
+        display: none;
+    }
+
+    .navbarMenuBtn {
+        display: none;
+    }
+    
+}

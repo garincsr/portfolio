@@ -1,0 +1,217 @@
+@import "../../App.scss";
+
+#contactPage {
+    min-height: calc(100vh - 5rem);
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+    .skillTitle {
+        font-size: 3.5rem;
+        font-weight: 600;
+        padding-top: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .skillDesc {
+        font-family: 'Segoe UI';
+        font-weight: 400;
+        font-size: 1rem;
+        max-width: 50rem;
+        padding: 0 2rem;
+    }
+    
+    .skillImg {
+        margin: 1rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10%;
+        pointer-events: none;
+    }
+    
+    .Img {
+        object-fit: cover;
+        width: 10rem;
+        min-width: 9rem;
+        padding: 0.5rem 1rem;
+        pointer-events: none;
+    }
+    
+    #skills {
+        padding: 2rem;
+    }
+    
+    #contactMe {
+        height: calc(100vh - 1rem);
+        padding: 2rem;
+    }
+    
+    .contactTitle {
+        font-size: 3.5rem;
+        font-weight: 600;
+        padding-top: 4rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .contactDesc {
+        font-family: 'Segoe UI';
+        font-weight: 400;
+        font-size: 1rem;
+        width: 65rem;
+        max-width: 50rem;
+        padding: 0 2rem;
+    }
+    
+    .contactForm {
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        max-width: 65rem;
+    }
+    
+    .name, .email, .msg {
+        font-size: medium;
+        width: 100%;
+        max-width: 45rem;
+        margin: 0.5rem;
+        padding: 0.5rem 1rem;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        background: $secondary-color;
+        // opacity: 0.6;
+    }
+    
+    // .submitBtn {
+    //     background: white;
+    //     font-weight: 600;
+    //     font-size: 0.8rem;
+    //     border: none;
+    //     border-radius: 2rem;
+    //     margin: 2rem;
+    //     padding: 0.75rem 3.5rem;
+    // }
+    
+    .submitBtn {
+        margin: 1rem 0;
+        background-color: $soft-color;
+        border: 2px solid #000;
+        border-radius: 5rem;
+        box-shadow: $primary-color 0.3rem 0.3rem 0 0;
+        color: #000;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 0 2.5rem;
+        line-height: 3rem;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+    
+    .submitBtn:hover {
+        background-color: #fff;
+    }
+      
+    .submitBtn:active {
+        box-shadow: #422800 2px 2px 0 0;
+        transform: translate(2px, 2px);
+    }
+    
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2rem;
+    
+        img {
+            object-fit: cover;
+            width: 2.5rem;
+            height: auto;
+            margin: 0 1rem;
+        }
+    }
+
+}
+
+// Screen Configuration
+@media screen and (min-width: 951px) {
+
+    .skillImg {
+        padding-left: 10% !important;
+    }
+    
+    .Img {
+        width: 8rem !important;
+        min-width: 7rem !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .skillImg {
+        padding-left: 10% !important;
+    }
+    
+    .Img {
+        width: 7rem !important;
+        min-width: 7rem !important;
+    }
+  
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .skillTitle {
+        font-size: 12vw !important;
+    }
+
+    .skillDesc {
+        font-size: 3.5vw !important;
+        font-weight: 200 !important;
+        letter-spacing: 1px !important;
+    }
+
+    .contactTitle {
+        font-size: 12vw !important;
+    }
+
+    .contactDesc {
+        font-size: 3.5vw !important;
+        font-weight: 200 !important;
+        letter-spacing: 1px !important;
+    }
+
+    .skillImg {
+        padding-left: 15% !important;
+    }
+    
+    .Img {
+        width: 5rem !important;
+        min-width: 5rem !important;
+    }
+
+    .links {
+    
+        img {
+            width: 2rem !important;
+            height: auto !important;
+        }
+    }
+  
+}
+

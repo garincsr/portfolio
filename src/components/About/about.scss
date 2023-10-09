@@ -1,0 +1,127 @@
+@import "../../App.scss";
+
+#about {
+    min-height: calc(100vh - 5rem);
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+    .aboutTitle {
+        font-size: 3.5rem;
+        font-weight: 600;
+        padding-top: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .aboutDesc {
+        font-family: 'Segoe UI';
+        font-weight: 400;
+        font-size: 1rem;
+        max-width: 50rem;
+        padding: 0 2rem;
+    }
+
+    .aboutBars {
+        margin: 1.5rem;
+        width: 100vw;
+        max-width: 80%;
+        text-align: left;
+
+        .aboutBar {
+            display: flex;
+            margin: 1rem;
+            padding: 1.5rem 2rem;
+            border-radius: 0.5rem;
+            background: $secondary-color;
+
+            img.aboutBarImg {
+                object-fit: cover;
+                height: 3rem;
+                width: auto;
+                margin-right: 2rem;
+            }
+
+            .aboutBarText {
+
+                h2 {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    margin-bottom: 0.2rem;
+                }
+
+                p {
+                    font-family: 'Segoe UI';
+                    font-size: 0.75rem;
+                    font-weight: 400;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+// Screen Configuration
+@media screen and (max-width: 480px) {
+
+    .aboutTitle {
+        font-size: 12vw !important;
+    }
+
+    .aboutDesc {
+        font-size: 3.5vw !important;
+        font-weight: 200 !important;
+        letter-spacing: 1px !important;
+    }
+
+    .aboutBarText {
+
+        h2 {
+            font-size: 5vw !important;
+        }
+
+        p {
+            font-weight: 300 !important;
+        }
+
+    }
+  
+}
+
+@media screen and (max-width: 360px) {
+
+    .aboutBar {
+
+        align-items: center !important;
+
+        img.aboutBarImg {
+            margin-left: 10vw !important;
+            width: 3.5rem !important;
+            height: auto !important;
+            margin-bottom: 0.5rem !important;
+        }
+
+        h2 {
+            font-size: 1.25rem !important;
+            text-align: center;
+        }
+
+        p{
+            font-size: 0.65rem !important;
+            text-align: center;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
